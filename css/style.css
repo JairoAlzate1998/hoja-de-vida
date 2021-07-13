@@ -1,33 +1,56 @@
 .total {
-    display: flex;
-    width: 100%;
-    height: 100%;
-    border: 1px solid #000;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  border: 1px solid #000;
 }
 
 .izquierda {
-    width: 30%;
-    height: 100%;
-    background-color: rgb(46, 46, 48);
+  width: 30%;
+  height: 100%;
+  background-color: rgb(46, 46, 48);
 }
 
 .derecha {
-    width: 70%;
-    height: 100%;
+  width: 70%;
+  height: 100%;
 }
 
-h2 {
-    color: white;
-    width: 100%;
-    text-align: center;
-    background-color: rgba(46, 46, 48, 0);
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 30px;
-    border: 0;
-    margin-top: 20px;
-    
+.izquierda h2 {
+  color: white;
+  width: 100%;
+  text-align: center;
+  background-color: rgba(46, 46, 48, 0);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  border: 0;
+  margin-top: 20px;
 }
 
-img{
-    border-radius: 100px;
+.izquierda h3 {
+  color: white;
+  width: 100%;
+  text-align: center;
+  background-color: rgba(46, 46, 48, 0);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  border: 0;
+  margin-top: 20px;
+}
+
+.izquierda h4 {
+  color: white;
+  width: 100%;
+  text-align: left;
+  background-color: rgba(46, 46, 48, 0);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  border: 0;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.izquierda img {
+  border-radius: 100px;
 }
