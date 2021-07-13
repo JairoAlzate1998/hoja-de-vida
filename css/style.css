@@ -15,7 +15,7 @@
   width: 70%;
   height: 100%;
 }
-
+/* -------------------------- Panel Izquiedo ------------------------------------- */
 .izquierda h2 {
   color: white;
   width: 100%;
@@ -53,4 +53,41 @@
 
 .izquierda img {
   border-radius: 100px;
+}
+
+/* -------------------------- Panel Derecho ------------------------------------- */
+.derecha h2{
+    font-family: Arial, Helvetica, sans-serif;
+    border-bottom: 1px solid #000;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.derecha img{
+    margin-left: 30px;
+}
+
+.colegio{
+    display: flex;
+}
+
+.sena{
+    display: flex;
+}
+
+.uptc {
+    display: flex;
+}
+
+.derecha h3 {
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    border: 0;
+    margin-top: 0;
+    margin-left: 40px;
+}
+
+.sena h3{
+    margin-left: 29px;
 }
